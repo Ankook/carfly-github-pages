@@ -1,0 +1,3336 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* Libraries, which is used in current project. */
+/* не пишем node_modules, сразу пишем название модуля из node_modules'*/
+.datepicker {
+  display: none;
+}
+
+.datepicker.active {
+  display: block;
+}
+
+.datepicker-dropdown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  padding-top: 4px;
+}
+
+.datepicker-dropdown.datepicker-orient-top {
+  padding-top: 0;
+  padding-bottom: 4px;
+}
+
+.datepicker-picker {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.datepicker-dropdown .datepicker-picker {
+  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+          box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.datepicker-picker span {
+  display: block;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 0;
+  border-radius: 4px;
+  cursor: default;
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.datepicker-main {
+  padding: 2px;
+}
+
+.datepicker-footer {
+  -webkit-box-shadow: inset 0 1px 1px rgba(10, 10, 10, 0.1);
+          box-shadow: inset 0 1px 1px rgba(10, 10, 10, 0.1);
+  background-color: whitesmoke;
+}
+
+.datepicker-controls, .datepicker-view, .datepicker-view .days-of-week, .datepicker-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.datepicker-grid {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.datepicker-view .dow, .datepicker-view .days .datepicker-cell {
+  -ms-flex-preferred-size: 14.28571%;
+      flex-basis: 14.28571%;
+}
+
+.datepicker-view.datepicker-grid .datepicker-cell {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.datepicker-view .week, .datepicker-cell {
+  height: 2.25rem;
+  line-height: 2.25rem;
+}
+
+.datepicker-title {
+  -webkit-box-shadow: inset 0 -1px 1px rgba(10, 10, 10, 0.1);
+          box-shadow: inset 0 -1px 1px rgba(10, 10, 10, 0.1);
+  background-color: whitesmoke;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.datepicker-header .datepicker-controls {
+  padding: 2px 2px 0;
+}
+
+.datepicker-controls .button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: white;
+  cursor: pointer;
+  padding: calc(0.375em - 1px) 0.75em;
+  height: 2.25em;
+  vertical-align: top;
+  text-align: center;
+  line-height: 1.5;
+  white-space: nowrap;
+  color: #363636;
+  font-size: 1rem;
+}
+
+.datepicker-controls .button:focus, .datepicker-controls .button:active {
+  outline: none;
+}
+
+.datepicker-controls .button:hover {
+  border-color: #b5b5b5;
+  color: #363636;
+}
+
+.datepicker-controls .button:focus {
+  border-color: #3273dc;
+  color: #363636;
+}
+
+.datepicker-controls .button:focus:not(:active) {
+  -webkit-box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+}
+
+.datepicker-controls .button:active {
+  border-color: #4a4a4a;
+  color: #363636;
+}
+
+.datepicker-controls .button[disabled] {
+  cursor: not-allowed;
+}
+
+.datepicker-header .datepicker-controls .button {
+  border-color: transparent;
+  font-weight: bold;
+}
+
+.datepicker-header .datepicker-controls .button:hover {
+  background-color: #f9f9f9;
+}
+
+.datepicker-header .datepicker-controls .button:focus:not(:active) {
+  -webkit-box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
+}
+
+.datepicker-header .datepicker-controls .button:active {
+  background-color: #f2f2f2;
+}
+
+.datepicker-header .datepicker-controls .button[disabled] {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.datepicker-footer .datepicker-controls .button {
+  margin: calc(0.375rem - 1px) 0.375rem;
+  border-radius: 2px;
+  width: 100%;
+  font-size: 0.75rem;
+}
+
+.datepicker-controls .view-switch {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.datepicker-controls .prev-btn,
+.datepicker-controls .next-btn {
+  padding-right: 0.375rem;
+  padding-left: 0.375rem;
+  width: 2.25rem;
+}
+
+.datepicker-controls .prev-btn.disabled,
+.datepicker-controls .next-btn.disabled {
+  visibility: hidden;
+}
+
+.datepicker-view .dow {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.datepicker-view .week {
+  width: 2.25rem;
+  color: #b5b5b5;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 22.5rem) {
+  .datepicker-view .week {
+    width: 1.96875rem;
+  }
+}
+
+.datepicker-grid {
+  width: 15.75rem;
+}
+
+@media (max-width: 22.5rem) {
+  .calendar-weeks + .days .datepicker-grid {
+    width: 13.78125rem;
+  }
+}
+
+.datepicker-cell:not(.disabled):hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.datepicker-cell.focused:not(.selected) {
+  background-color: #e8e8e8;
+}
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background-color: #3273dc;
+  color: #fff;
+  font-weight: 600;
+}
+
+.datepicker-cell.disabled {
+  color: #dbdbdb;
+}
+
+.datepicker-cell.prev:not(.disabled), .datepicker-cell.next:not(.disabled) {
+  color: #7a7a7a;
+}
+
+.datepicker-cell.prev.selected, .datepicker-cell.next.selected {
+  color: #e6e6e6;
+}
+
+.datepicker-cell.highlighted:not(.selected):not(.range):not(.today) {
+  border-radius: 0;
+  background-color: whitesmoke;
+}
+
+.datepicker-cell.highlighted:not(.selected):not(.range):not(.today):not(.disabled):hover {
+  background-color: #eeeeee;
+}
+
+.datepicker-cell.highlighted:not(.selected):not(.range):not(.today).focused {
+  background-color: #e8e8e8;
+}
+
+.datepicker-cell.today:not(.selected) {
+  background-color: #00d1b2;
+}
+
+.datepicker-cell.today:not(.selected):not(.disabled) {
+  color: #fff;
+}
+
+.datepicker-cell.today.focused:not(.selected) {
+  background-color: #00c4a7;
+}
+
+.datepicker-cell.range-start:not(.selected), .datepicker-cell.range-end:not(.selected) {
+  background-color: #b5b5b5;
+  color: #fff;
+}
+
+.datepicker-cell.range-start.focused:not(.selected), .datepicker-cell.range-end.focused:not(.selected) {
+  background-color: #afafaf;
+}
+
+.datepicker-cell.range-start {
+  border-radius: 4px 0 0 4px;
+}
+
+.datepicker-cell.range-end {
+  border-radius: 0 4px 4px 0;
+}
+
+.datepicker-cell.range {
+  border-radius: 0;
+  background-color: #dbdbdb;
+}
+
+.datepicker-cell.range:not(.disabled):not(.focused):not(.today):hover {
+  background-color: #d5d5d5;
+}
+
+.datepicker-cell.range.disabled {
+  color: #c2c2c2;
+}
+
+.datepicker-cell.range.focused {
+  background-color: #cfcfcf;
+}
+
+.datepicker-view.datepicker-grid .datepicker-cell {
+  height: 4.5rem;
+  line-height: 4.5rem;
+}
+
+.datepicker-input.in-edit {
+  border-color: #2366d1;
+}
+
+.datepicker-input.in-edit:focus, .datepicker-input.in-edit:active {
+  -webkit-box-shadow: 0 0 0.25em 0.25em rgba(35, 102, 209, 0.2);
+          box-shadow: 0 0 0.25em 0.25em rgba(35, 102, 209, 0.2);
+}
+
+/* Libraries, which is used in current project. */
+/* Some styles, which is used for correct sprite-generation, vars, mixins and etc */
+/* Please, do not edit with file! */
+/* This file can be overwritten by update-project! */
+/* Mixins, which are specific for current project */
+/* Mixins and vars for sprite generation */
+/* Scss for used fonts */
+/* Your custom fonts here */
+/* Example
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Custom-Font.eot');
+    src: url('../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Custom-Font.woff') format('woff'),
+         url('../fonts/Custom-Font.svg#custom_font') format('svg');
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+
+
+// Var for using custom font
+$CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
+*/
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova Extrabold.otf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova Semibold.otf");
+  font-weight: 600;
+}
+
+/* Vars, which are specific for current project */
+/* Styles for UI-elements */
+/* Common styles for current project */
+/* главный файл */
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* главный файл */
+button {
+  background-color: transparent;
+  border: none;
+  font-family: Proxima Nova, sans-serif;
+  cursor: pointer;
+}
+
+/* главный файл */
+label {
+  position: relative;
+  display: block;
+}
+
+/* главный файл */
+.logo svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* главный файл */
+.contacts-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* главный файл */
+.contacts-item {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* главный файл */
+.contacts-item:last-child {
+  margin: 0px;
+}
+
+/* главный файл */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* главный файл */
+body {
+  font-family: Proxima Nova, sans-serif;
+}
+
+/* главный файл */
+/* default */
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+@media (max-width: 1360px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .container {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 964px) {
+  .container {
+    margin: 0 auto;
+    max-width: 288px;
+  }
+}
+
+.title {
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+  color: #191919;
+}
+
+/* главный файл */
+.subtitle {
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  color: #282e34;
+  margin-bottom: 6px;
+}
+
+/* главный файл */
+ul {
+  list-style: none;
+}
+
+/* главный файл */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* общие стили */
+footer {
+  background-color: #579d45;
+  color: white;
+}
+
+/* Plugins, which is used in current project. */
+/* Components, which is used in current project. */
+.footer {
+  background-color: #579d45;
+  color: white;
+}
+
+/* footer */
+.whatsapp-icon-footer {
+  width: 20px;
+  margin-right: 12px;
+}
+
+/* footer */
+.whatsapp-icon-address {
+  width: 24px;
+  margin-right: 17px;
+}
+
+/* footer */
+.telephone-icon-address {
+  width: 20px;
+  margin-right: 19px;
+}
+
+/* footer */
+.footer-contacts-item {
+  margin-right: 60px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* footer */
+.footer-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* footer */
+.footer-top,
+.footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* footer */
+.footer-top {
+  padding: 28px 0;
+  border-bottom: 2px solid #e0e8f0;
+}
+
+/* footer */
+.footer-bottom {
+  padding: 28px 0 28px 0;
+}
+
+/* footer */
+.policy-link {
+  border-bottom: 1px solid #f2f7fc;
+}
+
+@media (max-width: 1360px) {
+  .footer-contacts-item {
+    line-height: 28px;
+  }
+  .footer-top {
+    padding: 47px 0px 40px 0;
+  }
+}
+
+@media (max-width: 1130px) {
+  .footer-contacts-item {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer-top {
+    padding: 25px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 964px) {
+  .footer-contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .footer-contacts-item:first-child {
+    margin-bottom: 12px;
+  }
+  .footer-contacts-item {
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .footer-logo svg {
+    width: 52px;
+    height: 40px;
+  }
+  .footer-top {
+    padding: 30px 0px 20px 0px;
+  }
+  .footer-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .policy-link {
+    margin-bottom: 17px;
+  }
+}
+
+.header {
+  padding: 28px 0;
+  background-color: white;
+  border-bottom: 2px solid #579d45;
+  border-color: rgba(87, 157, 69, 0.2);
+}
+
+.header-logo {
+  margin-right: 72px;
+}
+
+.header-logo svg {
+  width: 100px;
+  height: 78px;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-address {
+  display: none;
+}
+
+.header-burger {
+  display: none;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-menu-item {
+  margin-right: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #868fa4;
+}
+
+.nav-item:last-child {
+  margin-right: 0px;
+}
+
+.header-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contacts-item {
+  margin-right: 65px;
+  color: #191919;
+}
+
+.whatsapp-icon-header {
+  width: 16px;
+  margin-right: 8px;
+}
+
+@media (max-width: 1360px) {
+  .header {
+    padding: 20px 0;
+  }
+  .header-logo {
+    margin-right: 83px;
+  }
+  .header-logo svg {
+    width: 100px;
+    height: 78px;
+  }
+  .header-address {
+    display: none;
+  }
+  .header-burger {
+    display: none;
+  }
+  .nav-menu-item {
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .header-contacts-item {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .header {
+    padding: 22px 0px;
+    position: relative;
+    z-index: 10;
+  }
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+  .header-logo svg {
+    width: 100px;
+    height: 78px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .header-address {
+    display: none;
+  }
+  .header-contacts-item {
+    margin-right: 30px;
+  }
+  .nav-burger {
+    display: block;
+    position: relative;
+    width: 28px;
+    height: 23px;
+  }
+  .header-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 76px 189px 84px 156px;
+    position: absolute;
+    top: -444px;
+    width: 100%;
+    z-index: 5;
+    background: white;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  .header-burger.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    top: 127px;
+    width: 100%;
+    padding: 76px 189px 76px 156px;
+    z-index: 1;
+    background: white;
+    position: absolute;
+  }
+  .whatsapp-icon-burger {
+    width: 18px;
+    height: 18px;
+  }
+  .nav-burger span {
+    position: absolute;
+    background-color: #579d45;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    top: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .nav-burger::before,
+  .nav-burger::after {
+    content: '';
+    background-color: #579d45;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .nav-burger::before {
+    top: 0;
+  }
+  .nav-burger::after {
+    bottom: 0;
+  }
+  .nav-burger.active::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .nav-burger.active::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .nav-burger.active span {
+    display: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .header-contacts {
+    margin-right: 30px;
+  }
+  .header-contacts.active {
+    visibility: hidden;
+  }
+  .header-contacts-item {
+    max-width: 202px;
+  }
+  .burger-nav-menu {
+    max-width: 175px;
+  }
+  .burger-nav-menu-item {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 40px;
+  }
+  .burger-nav-menu-item:last-child {
+    margin-bottom: 0px;
+  }
+  .burger-contacts-list {
+    max-width: 202px;
+  }
+  .burger-contacts-list-item {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+  .burger-contacts-list-item:last-child {
+    margin-bottom: 0;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 964px) {
+  .header {
+    padding: 15px 14px;
+    position: relative;
+    z-index: 10;
+  }
+  .header-nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header-logo {
+    margin-right: 0px;
+  }
+  .header-logo svg {
+    width: 53px;
+    height: 40px;
+  }
+  .header-contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header-contacts.active {
+    visibility: hidden;
+  }
+  .header-contacts-item {
+    max-width: 147px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 30px;
+  }
+  .header-contacts-item:first-child {
+    margin-bottom: 4px;
+  }
+  .header-contacts-item:last-child {
+    margin-right: 30px;
+  }
+  .header-burger {
+    max-width: 320px;
+    left: calc(50% - 160px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 30px 0px 140px 0px;
+  }
+  .header-burger.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 72px;
+    padding: 30px 16px 140px 16px;
+  }
+  .classical-telephone {
+    display: none;
+  }
+  .header-address {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    display: block;
+    color: #4D5465;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    min-width: 160px;
+  }
+  .burger-nav-menu {
+    max-width: 131px;
+    margin-bottom: 62px;
+  }
+  .burger-nav-menu-item {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .whatsapp-icon-burger {
+    width: 18px;
+    height: 18px;
+  }
+  .burger-contacts-list {
+    max-width: 202px;
+  }
+  .burger-contacts-list-item {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+}
+
+.parking-content-list {
+  display: grid;
+  gap: 32px 32px;
+  grid-template-columns: 296px 296px 296px 296px;
+  grid-template-rows: 218px 218px 218px;
+  justify-items: end;
+  margin-bottom: 44px;
+}
+
+.parking-content-list-item:not(.hide) {
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 2s ease-out;
+}
+
+.hide {
+  display: none;
+}
+
+@-webkit-keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+/*.parking-content-list-item.block:nth-child(n + 10) {
+  display: block;
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  -moz-animation: fadeInFromNone 0.5s ease-out;
+  -o-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 2s ease-out;
+}
+*/
+.parking-content-list-item-image {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.parking-content-video-preview {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  max-width: 624px;
+  max-height: 468px;
+}
+
+.parking-content-more-photos {
+  color: #579d45;
+  position: relative;
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 18px 40px;
+  border: 2px solid #579d45;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  max-width: 195px;
+  margin: 40px auto 80px;
+}
+
+.parking-content-more-photos.hide {
+  display: none;
+}
+
+.parking-content-list-item-image:not(:first-child) {
+  cursor: pointer;
+  /* курсор поинтер */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /* и длительность становления прозрачности - 0.5s*/
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Cпрятано по дефолту */
+  position: fixed;
+  /* Остается на месте */
+  z-index: 1;
+  /* Сидит сверху */
+  padding-top: 100px;
+  /* Положение картинки в этой коробке */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Полная ширина */
+  height: 100%;
+  /* Полная высота */
+  overflow: auto;
+  /* Модальный блок будет скроллиться, если нужно */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* цвет подложки модального блока  */
+}
+
+/* Настройки картинки в модальном блоке */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 1200px;
+}
+
+/*Текст к картинке - такой же ширины, что и текст*/
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
+  padding: 10px 0;
+  color: black;
+  height: 150px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Добавление анимации зума в модальном окне */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+          animation-name: zoom;
+  /* имя анимации - зум */
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  /* длительность анимации - 2 секунды */
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  /* размеры элемента из нуля в единицу */
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  /* размеры элемента из нуля в единицу */
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* Настройка крестика */
+.modal .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 181px;
+  color: #f1f1f1;
+  font-weight: bold;
+  -webkit-transition: 2s;
+  transition: 2s;
+  /* длительность становления крестика желтым */
+}
+
+.modal .close:hover,
+.modal .close:focus {
+  text-decoration: none;
+  cursor: pointer;
+  color: green;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1360px) {
+  .parking-content-list {
+    display: grid;
+    gap: 28px 28px;
+    grid-template-columns: 254px 254px 254px 254px;
+    grid-template-rows: 191px 191px 191px;
+    justify-items: end;
+    margin-bottom: 40px;
+  }
+  .parking-content-list-item-image {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 100%;
+  }
+  .parking-content-video-preview {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    max-width: 536px;
+    max-height: 410px;
+    width: 100%;
+    height: 100%;
+  }
+  .parking-content-more-photos {
+    color: #579d45;
+    position: relative;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 18px 40px;
+    border: 2px solid #579d45;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    max-width: 195px;
+    margin: 50px auto 80px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .parking-content-list {
+    display: grid;
+    gap: 32px 32px;
+    grid-template-columns: 279px 280px 280px;
+    grid-template-rows: 210px 210px;
+    justify-items: end;
+    margin-bottom: 40px;
+  }
+  .parking-content-list-item-image {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  /*.parking-content-list-item.block:nth-child(n + 4) {
+      display: block;
+      -webkit-animation: fadeInFromNone 0.5s ease-out;
+      -moz-animation: fadeInFromNone 0.5s ease-out;
+      -o-animation: fadeInFromNone 0.5s ease-out;
+      animation: fadeInFromNone 2s ease-out;
+    }
+    */
+  .parking-content-video-preview {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    max-width: 592px;
+    max-height: 453px;
+  }
+  .parking-content-more-photos {
+    color: #579d45;
+    position: relative;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 18px 40px;
+    border: 2px solid #579d45;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    max-width: 194px;
+    max-height: 56px;
+    margin: 40px auto 54px;
+  }
+  .modal-content {
+    max-width: 720px;
+    width: 80%;
+  }
+  .close {
+    top: 10px;
+    right: 5px;
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 964px) {
+  .parking-content-list {
+    display: grid;
+    gap: 0px 0px;
+    grid-template-columns: 288px;
+    grid-template-rows: 331px;
+    justify-items: end;
+    margin-bottom: 0px;
+  }
+  .parking-content-list-item-image {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding-top: 12px;
+  }
+  /*
+    .block.parking-content-list-item:not(:first-child) {
+      display: block;
+      -webkit-animation: fadeInFromNone 0.5s ease-out;
+      -moz-animation: fadeInFromNone 0.5s ease-out;
+      -o-animation: fadeInFromNone 0.5s ease-out;
+      animation: fadeInFromNone 2s ease-out;
+    }
+    */
+  .parking-content-video-preview {
+    grid-column: 1 / 1;
+    width: 288px;
+    height: 331px;
+    background: url("../img/assets/parking-content/parking-content-video-preview-mobile.png") no-repeat;
+  }
+  .parking-content-video-preview img {
+    display: none;
+  }
+  .parking-content-more-photos {
+    color: #579d45;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 14px 40px;
+    border: 2px solid #579d45;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    max-width: 192px;
+    max-height: 48px;
+    margin: 30px auto 40px;
+  }
+  .modal-content {
+    max-width: 288px;
+    width: 80%;
+  }
+  #caption {
+    max-width: 288px;
+    width: 80%;
+  }
+  .close {
+    right: 34%;
+    font-size: 50px;
+    top: 15px;
+  }
+}
+
+.address {
+  padding: 80px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.address-title {
+  color: #191919;
+  text-align: left;
+  margin-bottom: 48px;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 52px;
+}
+
+.address-block {
+  max-width: 447px;
+}
+
+.map-block {
+  width: 733px;
+  height: 499px;
+}
+
+.address-subtitle {
+  color: #282E34;
+  margin-bottom: 16px;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.address-text {
+  margin-bottom: 40px;
+  color: #4D5465;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.address-coordinates {
+  margin-bottom: 40px;
+  color: #4D5465;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.address-contacts-item {
+  display: block;
+  color: #4D5465;
+  margin-bottom: 21px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.address-whatsapp-number {
+  border-bottom: 1px solid #4D5465;
+}
+
+.address-telephone-number {
+  border-bottom: 1px solid #4D5465;
+}
+
+.map-block img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.yandex-navigator-search {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #579d45;
+  border: 2px solid #579d45;
+  padding: 18px 40px 18px 40px;
+  border-radius: 4px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+}
+
+@media (max-width: 1360px) {
+  .address {
+    padding: 80px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+  }
+  .address-text {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .address-title {
+    text-align: left;
+    margin-bottom: 40px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .address-block {
+    max-width: 280px;
+  }
+  .map-block {
+    width: 723px;
+    height: 535px;
+  }
+  .map-block img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .address-subtitle {
+    color: #282E34;
+    margin-bottom: 6px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .address-contacts-item {
+    display: block;
+    color: #4D5465;
+    margin-bottom: 17px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .address-coordinates {
+    margin-bottom: 30px;
+    color: #4D5465;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .yandex-navigator-search {
+    padding: 18px 40px;
+    left: 0;
+    bottom: 80px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .address {
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+  }
+  .address-text {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .address-title {
+    text-align: left;
+    margin-bottom: 40px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .address-block {
+    max-width: 244px;
+  }
+  .map-block {
+    width: 592px;
+    height: 473px;
+  }
+  .map-block img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .address-subtitle {
+    color: #282E34;
+    margin-bottom: 8px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .address-contacts-item {
+    display: block;
+    color: #4D5465;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .address-coordinates {
+    margin-bottom: 20px;
+    color: #4D5465;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .yandex-navigator-search {
+    padding: 18px 40px;
+    left: 0;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 964px) {
+  .address {
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+    min-height: 699px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .address-text {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .address-title {
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .address-block {
+    max-width: 190px;
+    margin-bottom: 35px;
+  }
+  .map-block {
+    width: 288px;
+    height: 202px;
+  }
+  .map-block img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .address-subtitle {
+    color: #282E34;
+    margin-bottom: 4px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .address-contacts-item {
+    display: block;
+    color: #4D5465;
+    margin-bottom: 19px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .address-coordinates {
+    margin-bottom: 20px;
+    color: #4D5465;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .yandex-navigator-search {
+    padding: 15px 40px;
+    left: 17px;
+    bottom: 40px;
+  }
+}
+
+/* about-parking */
+/*расстояние между предыдущей секцией и заголовком, медиазапросы написаны*/
+.about-parking {
+  padding-top: 83px;
+}
+
+/* about-parking */
+.about-parking-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* about-parking */
+/* расстояние между заголовком и плитками, медиазапросы написаны */
+.about-parking-title {
+  margin-bottom: 40px;
+}
+
+/* about-parking */
+/* настройки подзаголовка, медизапросы написаны */
+.about-parking-subtitle {
+  display: block;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #579d45;
+  overflow-wrap: break-word;
+  margin-bottom: 12px;
+  max-width: 197px;
+}
+
+/* about-parking */
+/* настройки текста в плитке, медиазапросы написаны */
+.about-parking-text {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #868fa4;
+  overflow-wrap: break-word;
+  max-width: 269px;
+}
+
+/* about-parking */
+.about-parking-image {
+  position: absolute;
+}
+
+/* about-parking */
+.about-parking-car {
+  bottom: 49px;
+  right: 44px;
+}
+
+/* about-parking */
+.about-parking-people {
+  bottom: 48px;
+  right: 44px;
+}
+
+/* about-parking */
+.about-parking-lock {
+  bottom: 44px;
+  right: 44px;
+}
+
+/* about-parking */
+.about-parking-shield {
+  bottom: 40px;
+  right: 44px;
+}
+
+/* about-parking */
+.about-parking-camera {
+  bottom: 40px;
+  right: 44px;
+}
+
+/* about-parking */
+.about-parking-list-item {
+  display: block;
+  background: #f2f7fc;
+  border-radius: 6px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  min-height: 206px;
+  max-width: 405px;
+  padding: 40px;
+  position: relative;
+  width: 100%;
+}
+
+/* about-parking */
+.about-parking-list-item:last-child {
+  display: block;
+  background-image: url("../img/assets/about-parking/about-parking-green-background-with-planes.png");
+  background-size: cover;
+  background-position: center;
+  margin-right: 0px;
+  margin-bottom: 28px;
+  min-height: 206px;
+  max-width: 405px;
+}
+
+/* about-parking */
+.about-parking-list-item:nth-child(3) {
+  margin-right: 0;
+}
+
+/* about-parking */
+.about-parking-booking-subtitle {
+  display: block;
+  max-width: 241px;
+  min-height: 65px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  top: 42px;
+  left: 30px;
+  overflow-wrap: break-word;
+  margin-bottom: 24px;
+}
+
+/* about-parking*/
+.about-parking-booking-link {
+  display: block;
+  padding: 22px 40px;
+  background: #ffffff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #579d45;
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  max-width: 255px;
+  min-height: 54px;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 1360px) {
+  .about-parking {
+    padding-top: 80px;
+  }
+  .about-parking-title {
+    margin-bottom: 40px;
+  }
+  .about-parking-list-item {
+    padding: 30px 40px 30px 40px;
+    max-width: 344px;
+    min-height: 227px;
+  }
+  .about-parking-list-item:last-child {
+    max-width: 344px;
+    min-height: 227px;
+  }
+  .about-parking-subtitle {
+    display: block;
+    font-weight: 800px;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 197px;
+  }
+  .about-parking-booking-subtitle {
+    max-width: 230px;
+    margin-bottom: 18px;
+  }
+  .about-parking-text {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #868fa4;
+    max-width: 275px;
+  }
+  /* about-parking */
+  .about-parking-car {
+    bottom: 40px;
+    right: 40px;
+  }
+  /* about-parking */
+  .about-parking-people {
+    bottom: 40px;
+    right: 40px;
+  }
+  /* about-parking */
+  .about-parking-lock {
+    bottom: 40px;
+    right: 50px;
+  }
+  /* about-parking */
+  .about-parking-shield {
+    bottom: 12px;
+    right: 50px;
+  }
+  /* about-parking */
+  .about-parking-camera {
+    bottom: 12px;
+    right: 55px;
+  }
+  .about-parking-list-item:nth-child(3n) {
+    margin-right: 0;
+  }
+  .about-parking-booking-link {
+    max-width: 277px;
+    min-height: 60px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .about-parking {
+    padding-top: 50px;
+  }
+  .about-parking-title {
+    margin-bottom: 30px;
+  }
+  .about-parking-list-item {
+    max-width: 432px;
+    min-height: 156px;
+  }
+  .about-parking-list-item:nth-child(3) {
+    margin-right: 32px;
+  }
+  .about-parking-list-item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .about-parking-list-item:last-child {
+    max-width: 432px;
+    min-height: 156px;
+    display: block;
+    border-radius: 6px;
+    margin-right: 0px;
+    position: relative;
+  }
+  .about-parking-subtitle {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 164px;
+  }
+  .about-parking-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #868fa4;
+    max-width: 260px;
+  }
+  /* about-parking */
+  .about-parking-car {
+    bottom: 33px;
+    right: 32px;
+    width: 56px;
+    height: 41px;
+  }
+  /* about-parking */
+  .about-parking-people {
+    bottom: 30px;
+    right: 30px;
+    width: 64px;
+    height: 44px;
+  }
+  /* about-parking */
+  .about-parking-lock {
+    bottom: 31px;
+    right: 41px;
+    width: 37px;
+    height: 49px;
+  }
+  /* about-parking */
+  .about-parking-shield {
+    bottom: 30px;
+    right: 41px;
+    width: 42px;
+    height: 50px;
+  }
+  /* about-parking */
+  .about-parking-camera {
+    bottom: 31px;
+    right: 39px;
+    width: 41px;
+    height: 50px;
+  }
+  /* about-parking */
+  .about-parking-booking-subtitle {
+    display: block;
+    min-width: 333px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 12px;
+  }
+  /* about-parking*/
+  .about-parking-booking-link {
+    display: block;
+    padding: 22px 40px;
+    background: #ffffff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #579d45;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    top: 67px;
+    left: 40px;
+    max-width: 265px;
+  }
+}
+
+@media (max-width: 964px) {
+  .about-parking {
+    padding-top: 40px;
+  }
+  .about-parking-title {
+    margin-bottom: 20px;
+  }
+  .about-parking-list-item {
+    padding: 20px 20px;
+    max-width: 288px;
+    margin-bottom: 12px;
+    margin-right: 0px;
+  }
+  .about-parking-list-item:first-child {
+    min-height: 81px;
+  }
+  .about-parking-list-item:nth-child(2) {
+    min-height: 78px;
+  }
+  .about-parking-list-item:nth-child(3) {
+    min-height: 99px;
+    margin-right: 0;
+  }
+  .about-parking-list-item:nth-child(4) {
+    min-height: 138px;
+  }
+  .about-parking-list-item:nth-child(5) {
+    min-height: 99px;
+  }
+  .about-parking-subtitle {
+    font-weight: 800px;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 148px;
+  }
+  .about-parking-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #868fa4;
+    max-width: 192px;
+  }
+  /* about-parking */
+  .about-parking-car {
+    bottom: 24px;
+    right: 18px;
+    width: 44px;
+    height: 33px;
+  }
+  /* about-parking */
+  .about-parking-people {
+    bottom: 21px;
+    right: 14px;
+    width: 52px;
+    height: 36px;
+  }
+  /* about-parking */
+  .about-parking-lock {
+    bottom: 28px;
+    right: 23px;
+    width: 33px;
+    height: 43px;
+  }
+  /* about-parking */
+  .about-parking-shield {
+    bottom: 44px;
+    right: 19px;
+    width: 42px;
+    height: 50px;
+  }
+  /* about-parking */
+  .about-parking-camera {
+    bottom: 28px;
+    right: 22px;
+    width: 35px;
+    height: 43px;
+  }
+  .about-parking-booking-subtitle {
+    text-align: center;
+    display: block;
+    min-width: 176px;
+    max-width: 176px;
+    min-height: 44px;
+    font-weight: 800px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 12px;
+  }
+  .about-parking-booking-link {
+    display: block;
+    padding: 15px 30px;
+    max-width: 245px;
+    min-height: 48px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+.parking-form {
+  padding-top: 66px;
+  padding-bottom: 80px;
+  background-color: #F2F7FC;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-image: url("../img/assets/parking-form/desktop1920-men-with-airport.png");
+  background-size: contain;
+  min-height: 664px;
+  z-index: 0;
+}
+
+.parking-border {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.parking-border-elem {
+  max-width: 405px;
+  width: 100%;
+}
+
+.time-choice-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 54px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.time-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid #B5C0D9;
+  border-radius: 4px;
+}
+
+.find-place-button {
+  text-align: center;
+  padding: 18px 130px;
+  max-width: 401px;
+  min-height: 54px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  background: #579d45;
+  border-radius: 4px;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.parking-form-title {
+  text-align: left;
+  max-width: 586px;
+  font-weight: 800;
+  margin-bottom: 162px;
+  font-style: normal;
+  font-size: 58px;
+  line-height: 62px;
+}
+
+.timecost-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.timecost-list-item {
+  display: block;
+  position: relative;
+  margin-right: 58px;
+}
+
+.timecost-list-item:last-child {
+  margin-right: 0;
+}
+
+.timecost-list-item:not(:last-child):after {
+  content: "";
+  width: 2px;
+  height: 52px;
+  background-color: #B5C0D9;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  left: 125%;
+  opacity: 0.2;
+}
+
+.timecost-list-day-item {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #579d45;
+  max-width: 100px;
+  margin-bottom: 4px;
+}
+
+.timecost-list-cost-item {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #27282B;
+  max-width: 111px;
+}
+
+.time-choice-comment {
+  margin-bottom: 11px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  color: #868fa4;
+}
+
+.datepicker-input {
+  border: none;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  height: 100%;
+  margin-right: 3px;
+  width: 200px;
+}
+
+.timepicker {
+  border: none;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  height: 100%;
+  width: 198px;
+}
+
+.time-choice-inputs::after {
+  content: "";
+  position: absolute;
+  height: 42px;
+  background-color: #B5C0D9;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 2px;
+  opacity: 0.5;
+}
+
+.time-inputs-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.datapicker label:before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 20px;
+  background-size: contain;
+  -webkit-transform: translateY(-9px);
+          transform: translateY(-9px);
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='22' viewBox='0 0 20 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5C19 3.89543 18.1046 3 17 3Z' stroke='%23579D45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M14 1V5' stroke='%23579D45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M6 1V5' stroke='%23579D45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M1 9H19' stroke='%23579D45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  top: 50%;
+}
+
+.timepicker label:before {
+  content: "";
+  position: absolute;
+  height: 19px;
+  width: 20px;
+  background-size: contain;
+  left: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z' stroke='%23579D45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11 5V11L15 13' stroke='%23579D45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  border: none;
+  top: 50%;
+}
+
+.timepicker-popup-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-height: 180px;
+  max-width: 198px;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  overflow: auto;
+  border-bottom: 2px solid #b5c0d9;
+  border-right: 2px solid #b5c0d9;
+  border-left: 2px solid #b5c0d9;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 2;
+}
+
+.timepicker-popup-list-elem {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.timepicker-popup-list-hide {
+  display: none;
+}
+
+.timepicker-popup-list::-webkit-scrollbar {
+  display: none;
+}
+
+.timepicker-popup-list-elem:hover {
+  background-color: green;
+}
+
+.datepicker-input::-webkit-input-placeholder, .timepicker::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b5c0d9;
+  opacity: 1;
+  /* Firefox */
+}
+
+.datepicker-input::-moz-placeholder, .timepicker::-moz-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b5c0d9;
+  opacity: 1;
+  /* Firefox */
+}
+
+.datepicker-input:-ms-input-placeholder, .timepicker:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b5c0d9;
+  opacity: 1;
+  /* Firefox */
+}
+
+.datepicker-input::-ms-input-placeholder, .timepicker::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b5c0d9;
+  opacity: 1;
+  /* Firefox */
+}
+
+.datepicker-input::placeholder, .timepicker::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b5c0d9;
+  opacity: 1;
+  /* Firefox */
+}
+
+.datepicker-input:-ms-input-placeholder, .timepicker:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b5c0d9;
+}
+
+.datepicker-input::-ms-input-placeholder, .timepicker::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b5c0d9;
+}
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background: #579D45;
+}
+
+input {
+  outline: none;
+}
+
+input.invalid {
+  border: 3px solid red;
+  border-radius: 4px;
+}
+
+input.valid {
+  border: none;
+}
+
+@media (max-width: 1360px) {
+  .parking-form {
+    padding-top: 71px;
+    padding-bottom: 71px;
+    background-image: url("../img/assets/parking-form/laptop1360-men-with-airport.png");
+    background-color: white;
+    background-size: contain;
+  }
+  .find-place-button {
+    max-width: 348px;
+    min-height: 58px;
+    padding: 20px 104px;
+  }
+  .parking-border-elem {
+    max-width: 348px;
+    width: 100%;
+  }
+  .time-choice-inputs {
+    height: 60px;
+  }
+  .parking-form-title {
+    font-size: 48px;
+    line-height: 52px;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 82px;
+  }
+  .timecost-list {
+    margin-bottom: 82px;
+  }
+  .timecost-list-item {
+    margin-right: 93px;
+  }
+  .timecost-list-item:not(:last-child)::after {
+    height: 89px;
+    left: 137%;
+  }
+  .timecost-list-day-item {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 100px;
+    margin-bottom: 6px;
+  }
+  .timecost-list-cost-item {
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 111px;
+  }
+  .datepicker-input {
+    width: 170px;
+  }
+  .timepicker {
+    width: 171px;
+  }
+  .time-choice-inputs::after {
+    height: 44px;
+  }
+  .datapicker label::before {
+    width: 18px;
+    height: 18px;
+    left: 21px;
+  }
+  .timepicker label::before {
+    width: 20px;
+    height: 20px;
+    left: 21px;
+  }
+  .timepicker-popup-list {
+    max-width: 171px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .parking-form {
+    padding-top: 50px;
+    padding-bottom: 52px;
+    background-size: contain;
+    background-position-y: 23px;
+  }
+  .find-place-button {
+    min-height: 58px;
+  }
+  .parking-border {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .parking-border-elem {
+    width: 100%;
+    max-width: 436px;
+  }
+  .parking-border-elem:last-child {
+    max-width: 348px;
+    position: relative;
+    left: calc(50% - 174px);
+  }
+  .parking-border-elem:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  .time-choice-inputs {
+    height: 60px;
+  }
+  .parking-form-title {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: left;
+    max-width: 354px;
+    margin-bottom: 99px;
+  }
+  .timecost-list {
+    margin-bottom: 74px;
+  }
+  .timecost-list-item {
+    margin-right: 45px;
+  }
+  .timecost-list-item:not(:last-child)::after {
+    height: 68px;
+    left: 125%;
+  }
+  .timecost-list-day-item {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 90px;
+    margin-bottom: 5px;
+  }
+  .timecost-list-cost-item {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 100px;
+  }
+  .datepicker-input {
+    width: 215px;
+  }
+  .timepicker {
+    width: 215px;
+  }
+  .time-choice-inputs::after {
+    height: 44px;
+  }
+  .datapicker label::before {
+    width: 18px;
+    height: 18px;
+    left: 21px;
+  }
+  .timepicker label::before {
+    width: 20px;
+    height: 20px;
+    left: 21px;
+  }
+  .timepicker-popup-list {
+    max-width: 215px;
+  }
+}
+
+@media (max-width: 964px) {
+  .parking-form {
+    padding-top: 34px;
+    padding-bottom: 50px;
+    background-image: none;
+    min-height: 478px;
+  }
+  .find-place-button {
+    padding: 0;
+    font-size: 16px;
+    width: 100%;
+    min-height: 48px;
+  }
+  .parking-border {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .parking-border-elem {
+    width: 100%;
+    max-width: 288px;
+  }
+  .parking-border-elem:last-child {
+    left: calc(50% - 144px);
+  }
+  .time-choice-inputs {
+    height: 48px;
+  }
+  .parking-form-title {
+    max-width: 275px;
+    margin: 0 auto 38px auto;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: left;
+    text-align: center;
+  }
+  .timecost-list {
+    margin-bottom: 29px;
+  }
+  .timecost-list-item {
+    margin-right: 26px;
+  }
+  .timecost-list-item:not(:last-child)::after {
+    height: 56px;
+    left: 114%;
+  }
+  .timecost-list-day-item {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 71px;
+    margin-bottom: 4px;
+  }
+  .timecost-list-cost-item {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 78px;
+  }
+  .time-choice-comment {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .datepicker-input {
+    font-size: 14px;
+    width: 141px;
+    line-height: 18px;
+  }
+  .timepicker {
+    font-size: 14px;
+    width: 140px;
+    line-height: 18px;
+  }
+  .time-choice-inputs::after {
+    height: 40px;
+  }
+  .datapicker label::before {
+    width: 13px;
+    height: 15px;
+    left: 14px;
+  }
+  .timepicker label::before {
+    width: 13px;
+    height: 13px;
+    left: 16px;
+    -webkit-transform: translateY(-7px);
+            transform: translateY(-7px);
+  }
+  .timepicker-popup-list {
+    max-width: 140px;
+  }
+}
+
+.services-accordeon {
+  display: none;
+}
+
+.services {
+  min-height: 699px;
+}
+
+.services-title {
+  margin-bottom: 40px;
+  padding-top: 80px;
+  font-weight: 800;
+  font-size: normal;
+  font-size: 48px;
+  line-height: 52px;
+}
+
+.services-display {
+  position: relative;
+}
+
+.services-tab-img-content img {
+  position: absolute;
+}
+
+.services {
+  background-image: url("../img/assets/services/services-bg.png");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.services-tab-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 102px;
+}
+
+.tab-btns-item {
+  margin-right: 100px;
+  position: relative;
+}
+
+.tab-btns-item::after {
+  content: "";
+  width: 0%;
+  height: 4px;
+  background-color: #579d45;
+  position: absolute;
+  bottom: -7px;
+  left: 0%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.tab-btns-item button {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #868fa4;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.tab-btns-item:last-child {
+  margin-right: 0px;
+}
+
+.tab-btns-item.active button {
+  color: #579d45;
+}
+
+.service-display-tab.active .service-tab-img-cont img {
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tab-btns-item.active::after {
+  width: 100%;
+}
+
+.service-tab {
+  display: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.service-tab.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service-tab-img-cont {
+  margin-right: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.service-tab-img-cont img {
+  max-width: 100%;
+}
+
+.service-tab-list-item {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #868fa4;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.service-tab-list-item:last-child {
+  margin-bottom: 0px;
+}
+
+.service-tab-list-item::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #579d45;
+  left: -27px;
+  top: 9px;
+  display: block;
+}
+
+.service-tab-list {
+  width: 600px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+@media (max-width: 1360px) {
+  .services {
+    min-height: 630px;
+  }
+  .services-title {
+    margin-bottom: 32px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .services-tab-btns {
+    margin-bottom: 77px;
+  }
+  .tab-btns-item {
+    margin-right: 60px;
+  }
+  .service-tab-img-cont {
+    margin-right: 55px;
+  }
+  .service-tab-list-item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .service-tab-list {
+    width: 415px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .services {
+    min-height: 468px;
+  }
+  .services-title {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .services-tab-btns {
+    margin-bottom: 50px;
+  }
+  .tab-btns-item {
+    margin-right: 40px;
+  }
+  .tab-btns-item button {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .service-tab-img-cont {
+    margin-right: 63px;
+  }
+  .service-tab-list-item {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .service-tab-list {
+    width: 389px;
+  }
+}
+
+@media (max-width: 964px) {
+  .services-option-btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    position: relative;
+  }
+  .services-option-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.5s ease-out;
+    transition: max-height 0.5s ease-out;
+  }
+  .services {
+    background-image: url("../img/assets/services/services-background-mobile-320.png");
+    background-repeat: repeat;
+    background-position: top;
+    min-height: 248px;
+  }
+  .services-title {
+    padding-top: 40px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .services-gallery {
+    display: none;
+  }
+  .services-option-btn {
+    position: relative;
+    color: #868FA4;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .services-option-btn::before {
+    display: block;
+    content: "";
+    width: 0%;
+    min-height: 2px;
+    background-color: #579d45;
+    position: absolute;
+    top: 26px;
+    left: 0%;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .active.services-option-btn::before {
+    width: 100%;
+  }
+  .services-option-btn::after {
+    display: inline-block;
+    position: absolute;
+    background: url("../img/assets/services/gray-down-arrow.svg") no-repeat;
+    content: "";
+    background-size: cover;
+    width: 13px;
+    height: 8px;
+    left: calc(100% + 13px);
+    top: calc(50% - 2px);
+  }
+  .accordeon-item {
+    padding-bottom: 20px;
+  }
+  .services-accordeon {
+    display: block;
+    color: #868FA4;
+  }
+  .services-option-content {
+    margin-top: 35px;
+  }
+  .services-option-content-list-item:not(:last-child) {
+    margin-bottom: 14px;
+  }
+  .services-option-content-list {
+    max-width: 268px;
+    margin-bottom: 10px;
+  }
+  .services-option-content-list-item {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .services-option-content-image {
+    max-width: 100%;
+    display: block;
+  }
+  .services-option-content-list-item::before {
+    content: "";
+    position: relative;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #579d45;
+    left: -27px;
+    top: 13px;
+    display: block;
+  }
+}
+
+/* Additional style files. */
